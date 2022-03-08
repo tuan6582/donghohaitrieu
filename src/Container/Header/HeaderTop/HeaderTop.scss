@@ -9,12 +9,12 @@
 }
 
 .header-top {
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #484848;
     .header__contact {
         padding: 1rem 0;
         @extend %flexBetween;
-        .header__map {
-            .header__left {
+        .header__map--top {
+            .header__left--top {
                 @extend %flex;
                 & > li {
                     color: #fff;
@@ -37,8 +37,8 @@
                 }
             }
         }
-        .header__icon {
-            .header__right {
+        .header__icon--top {
+            .header__right--top {
                 @extend %flex;
                 & > li > a {
                     text-decoration: none;

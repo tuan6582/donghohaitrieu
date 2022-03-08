@@ -7,8 +7,8 @@ function HeaderTop() {
                 <div className="row no-gutters">
                     <div className="col-xl-12 col-lg-12">
                         <div className="header__contact">
-                            <div className="header__map">
-                                <ul className="header__left">
+                            <div className="header__map--top">
+                                <ul className="header__left--top">
                                     <li>
                                         <p>
                                             <i className="fa-solid fa-location-dot"></i>
@@ -23,8 +23,8 @@ function HeaderTop() {
                                     </li>
                                 </ul>
                             </div>
-                            <div className="header__icon">
-                                <ul className="header__right">
+                            <div className="header__icon--top">
+                                <ul className="header__right--top">
                                     <li>
                                         <a href="/"><i className="fa-brands fa-facebook-f"></i></a>
                                     </li>

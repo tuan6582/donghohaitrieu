@@ -3,8 +3,8 @@ import './HeaderCenter.css'
 
 function HeaderCenter() {
     return (
-        <div>
-
+        <div className="header-center">
+            <h2>hello React</h2>
         </div>
     );
 }
