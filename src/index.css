@@ -8,4 +8,14 @@ html {
     box-sizing: border-box;
     line-height: 1.5rem;
     font-family: "Roboto", sans-serif;
+    font-size: 62.5%;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+}
+
+p {
+    margin: 0;
 }
