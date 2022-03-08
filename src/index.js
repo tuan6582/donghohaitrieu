@@ -5,7 +5,6 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.min';
-import 'bootstrap/dist/js/popper.min.js';
 import 'bootstrap/dist/js/jquery-3.2.1.slim.min';
 
 import './index.css';
