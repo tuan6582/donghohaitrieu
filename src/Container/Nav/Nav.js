@@ -7,7 +7,13 @@ import Donghonu from '../pages/Donghonu/Donghonu'
 import Blogs from '../pages/Blogs/Blogs'
 import Lienhe from '../pages/Lienhe/Lienhe'
 
+
+
+
+
 function Nav() {
+
+
 
     return (
         <React.Fragment>
@@ -17,7 +23,7 @@ function Nav() {
                         <div className="col-xl-12 col-lg-12">
                             <div className="bottom__block--nav">
                                 <ul className="bottom__nav">
-                                    <li><a className="bottom__nav--link" href="/">Trang chủ</a></li>
+                                    <li><a className="bottom__nav--link active" href="/">Trang chủ</a></li>
                                     <li><Link className="bottom__nav--link" to="/gioithieu">Giới thiệu</Link></li>
                                     <li><Link className="bottom__nav--link" to="/donghonam">Đồng hồ nam</Link></li>
                                     <li><Link className="bottom__nav--link" to="/donghonu">Đồng hồ nữ</Link></li>
