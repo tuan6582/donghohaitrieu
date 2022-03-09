@@ -4,7 +4,7 @@ function HeaderTop() {
     return (
         <div className="header-top">
             <div className="container ">
-                <div className="row no-gutters">
+                <div className="row">
                     <div className="col-xl-12 col-lg-12">
                         <div className="header__contact">
                             <div className="header__map--top">
@@ -17,7 +17,7 @@ function HeaderTop() {
                                     </li>
                                     <li>
                                         <p>
-                                            <i class="fa-solid fa-phone"></i>
+                                            <i className="fa-solid fa-phone"></i>
                                             <a href="tel:076 922 0162">076 922 0162</a>
                                         </p>
                                     </li>
