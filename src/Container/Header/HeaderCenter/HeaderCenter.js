@@ -1,6 +1,6 @@
 import React from 'react';
 import './HeaderCenter.css'
-import { logoHome, productCart } from '../asstes/img';
+import { logoHome } from '../asstes/img';
 
 
 
