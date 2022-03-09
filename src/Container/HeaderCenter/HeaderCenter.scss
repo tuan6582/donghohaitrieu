@@ -97,7 +97,7 @@
                     border: 3px solid #ccc;
                     display: none;
                     animation: hoverBoxCart linear 0.3s;
-                    z-index: 2;
+                    z-index: 10;
                     &::before {
                         content: "";
                         position: absolute;

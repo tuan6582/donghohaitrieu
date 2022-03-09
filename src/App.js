@@ -1,14 +1,17 @@
 import './App.css';
 import Nav from './Container/Nav/Nav'
 import HeaderApp from './Container/HeaderApp/HeaderApp'
-// import Slider from './Container/Slider/Slider'
+import Slider from './Container/Slider/Slider'
 function App() {
   return (
+
     <div className="App">
       <HeaderApp />
       <Nav />
-      {/* <Slider /> */}
+      <Slider />
     </div>
+
+
   );
 }
 

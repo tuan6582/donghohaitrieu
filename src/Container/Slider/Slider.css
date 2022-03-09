@@ -1,1 +1,72 @@
-/* No CSS *//*# sourceMappingURL=Slider.css.map */
+.slick-slider {
+  overflow: hidden;
+}
+
+.slick-slider .slider-item {
+  position: relative;
+}
+
+.slick-slider .slider-item .slider-text {
+  position: absolute;
+  top: 25%;
+  left: 10%;
+  width: 40%;
+  font-size: 1.6rem;
+  color: #fff;
+}
+
+.slick-slider .slider-item .slider-text > h3 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.slick-slider .slider-item .slider-text > h4 {
+  font-size: 5rem;
+  margin: 10px 0;
+}
+
+.slick-slider .slider-item .slider-text .button-outline {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 20px;
+  display: inline-block;
+  padding: 10px 30px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.slick-slider .slider-item .slider-text .button-outline:hover {
+  background-color: #c89979;
+  border: 2px solid #c89979;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.slick-slider .slick-slide img {
+  height: 100%;
+  width: 100%;
+}
+
+.slick-slider .slick-prev {
+  left: 10px;
+  z-index: 1;
+}
+
+.slick-slider .slick-next {
+  right: 25px;
+  z-index: 1;
+}
+
+.slick-slider .slick-prev:before,
+.slick-slider .slick-next:before {
+  font-size: 3rem;
+}
+
+body[data-aos-duration="400"] [data-aos] {
+  -webkit-transition-duration: 1.5s;
+          transition-duration: 1.5s;
+}
+/*# sourceMappingURL=Slider.css.map */

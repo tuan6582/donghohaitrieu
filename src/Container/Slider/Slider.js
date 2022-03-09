@@ -1,41 +1,50 @@
-import React from 'react';
-import './Slider.css'
+import React, { Component } from "react";
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import Slider from "react-slick";
+import { slider1 } from "../asstes/img"
+import { slider2 } from "../asstes/img"
+import './Slider.css'
 
-function Slider() {
-    const settings = {
-        dots: true,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1
-    };
-    return (
-        <div>
-            <h2> Single Item</h2>
-            <Slider {...settings}>
-                <div>
-                    <h3>1</h3>
-                </div>
-                <div>
-                    <h3>2</h3>
-                </div>
-                <div>
-                    <h3>3</h3>
-                </div>
-                <div>
-                    <h3>4</h3>
-                </div>
-                <div>
-                    <h3>5</h3>
-                </div>
-                <div>
-                    <h3>6</h3>
-                </div>
-            </Slider>
-        </div>
-    );
+import AOS from 'aos';
+AOS.init();
+
+export default class AutoPlay extends Component {
+    render() {
+        const settings = {
+            dots: false,
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: false,
+            speed: 500,
+            autoplaySpeed: 3000,
+            cssEase: "linear"
+        };
+        return (
+            <div className="slider-app">
+                <Slider {...settings}>
+                    <div className="slider-item">
+                        <img src={slider1} alt="" />
+                        <div className="slider-text" data-aos="fade-left">
+                            <h3>Mona Watch</h3>
+                            <h4>Đồng hồ Classico</h4>
+                            <p>Cùng với sự phát triển không ngừng của thời trang thế giới, rất nhiều thương hiệu cho ra đời những mẫu đồng hồ nam chính hãng đa dạng về phong cách, kiểu dáng, màu sắc, kích cỡ…</p>
+                            <span className="button-outline">Xem sản phẩm</span>
+                        </div>
+                    </div>
+                    <div className="slider-item">
+                        <img src={slider2} alt="" />
+                        <div className="slider-text" data-aos="fade-left">
+                            <h3>Mona Watch</h3>
+                            <h4>Đồng hồ Classico</h4>
+                            <p>Cùng với sự phát triển không ngừng của thời trang thế giới, rất nhiều thương hiệu cho ra đời những mẫu đồng hồ nam chính hãng đa dạng về phong cách, kiểu dáng, màu sắc, kích cỡ…</p>
+                            <span className="button-outline">Xem sản phẩm</span>
+                        </div>
+                    </div>
+                </Slider>
+            </div>
+        );
+    }
 }
 
-export default Slider;
