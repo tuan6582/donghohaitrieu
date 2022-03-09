@@ -125,6 +125,7 @@
   display: none;
   -webkit-animation: hoverBoxCart linear 0.3s;
           animation: hoverBoxCart linear 0.3s;
+  z-index: 2;
 }
 
 .header-center .header__center--cart .header__center--list .header__center--item-cart .cart-box::before {

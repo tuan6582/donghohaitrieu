@@ -1,5 +1,9 @@
-.header-bottom {
-    .header__bottom--nav {
+.nav-bottom {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #333;
+    .bottom__block--nav {
         .bottom__nav {
             display: flex;
             justify-content: center;
