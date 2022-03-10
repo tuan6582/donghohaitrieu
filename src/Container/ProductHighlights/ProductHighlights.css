@@ -1,0 +1,85 @@
+.product-container {
+  padding-top: 20px;
+  margin-bottom: 40px;
+}
+
+.product-container .product-item {
+  padding: 0 15px;
+}
+
+.product-container .product-item .box-img {
+  border: 1px solid #ccc;
+}
+
+.product-container .product-item .box-img > a > img {
+  width: 100%;
+  vertical-align: unset;
+  border-style: none;
+}
+
+.product-container .product-item .box-img > a > img:focus-visible {
+  outline: unset unset unset;
+  outline-color: unset;
+  outline-style: unset;
+  outline-width: unset;
+  outline-offset: unset;
+}
+
+.product-container .product-item .box-text {
+  text-align: center;
+  border-right: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding: 20px 0;
+}
+
+.product-container .product-item .box-text > p {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #3a3a3a;
+  margin-bottom: 10px;
+}
+
+.product-container .product-item .box-text .product-total {
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.product-container .product-item .box-text .product-total > span {
+  color: #c89979;
+  font-size: 1.7rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.product-container .product-item .box-text .product-total > a {
+  display: block;
+  padding: 10px 20px;
+  background-color: #c89979;
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-decoration: none;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.product-container .product-item .box-text .product-total > a:hover {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  background-color: #a07a61;
+}
+
+.slick-slider .slick-prev {
+  left: 15px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #333;
+}
+/*# sourceMappingURL=ProductHighlights.css.map */

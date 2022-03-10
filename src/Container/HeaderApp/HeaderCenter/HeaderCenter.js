@@ -1,9 +1,6 @@
 import React from 'react';
 import './HeaderCenter.css'
-import { logoHome } from '../asstes/img';
-
-
-
+import { logoHome } from '../../asstes/img';
 function HeaderCenter() {
     return (
         <div className="header-center">

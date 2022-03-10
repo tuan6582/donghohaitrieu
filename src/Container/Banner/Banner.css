@@ -1,0 +1,58 @@
+.banner {
+  margin: 40px 0;
+  padding-top: 20px;
+  overflow: hidden;
+}
+
+.banner .banner-item {
+  position: relative;
+}
+
+.banner .banner-item:hover .banner-img > a > img {
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.banner .banner-item .banner-img {
+  overflow: hidden;
+}
+
+.banner .banner-item .banner-img > a {
+  display: block;
+}
+
+.banner .banner-item .banner-img > a > img {
+  width: 100%;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
+}
+
+.banner .banner-item .banner-text {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  padding: 10px 30px;
+}
+
+.banner .banner-item .banner-text > h3 {
+  font-size: 1.8rem;
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #c89979;
+}
+
+.banner .banner-item .banner-text > h4 {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=Banner.css.map */

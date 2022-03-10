@@ -1,15 +1,17 @@
+
+import React from 'react';
 import './App.css';
-import Nav from './Container/Nav/Nav'
-import HeaderApp from './Container/HeaderApp/HeaderApp'
-import Slider from './Container/Slider/Slider'
+import Home from './pages/Home/Home'
 function App() {
   return (
 
-    <div className="App">
-      <HeaderApp />
-      <Nav />
-      <Slider />
-    </div>
+    <React.Fragment>
+      <div className="App">
+        <Home />
+      </div>
+
+    </React.Fragment>
+
 
 
   );

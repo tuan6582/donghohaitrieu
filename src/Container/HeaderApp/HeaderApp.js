@@ -1,6 +1,6 @@
 import React from 'react';
-import HeaderTop from '../HeaderTop/HeaderTop'
-import HeaderCenter from '../HeaderCenter/HeaderCenter'
+import HeaderTop from './HeaderTop/HeaderTop'
+import HeaderCenter from './HeaderCenter/HeaderCenter'
 import './HeaderApp.css'
 
 function HeaderApp() {

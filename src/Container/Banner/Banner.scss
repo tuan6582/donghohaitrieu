@@ -1,0 +1,46 @@
+.banner {
+    margin: 40px 0;
+    padding-top: 20px;
+    overflow: hidden;
+    .banner-item {
+        position: relative;
+        &:hover .banner-img > a > img {
+            transition: all 0.7s;
+            transform: scale(1.1);
+        }
+        .banner-img {
+            overflow: hidden;
+
+            & > a {
+                display: block;
+                & > img {
+                    width: 100%;
+                    transform: scale(1);
+                    transition: all 0.7s;
+                }
+            }
+        }
+
+        .banner-text {
+            position: absolute;
+            top: 50%;
+            left: 0;
+            transform: translateY(-50%);
+            padding: 10px 30px;
+            & > h3 {
+                font-size: 1.8rem;
+                color: #fff;
+                font-weight: 500;
+                margin-bottom: 20px;
+                padding-bottom: 20px;
+                border-bottom: 1px solid rgb(200, 153, 121);
+            }
+            & > h4 {
+                font-size: 4rem;
+                font-weight: 700;
+                color: #fff;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
