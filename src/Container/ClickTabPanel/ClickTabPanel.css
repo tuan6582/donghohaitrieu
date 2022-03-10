@@ -1,0 +1,38 @@
+.react-tabs__tab {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-right: 3rem;
+  padding: 0;
+  border: none;
+  position: unset;
+  bottom: 0;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.react-tabs__tab:hover {
+  color: #c89979;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.react-tabs__tab--selected {
+  color: #c89979;
+  background: unset;
+  border: none;
+  border-radius: unset;
+  position: unset;
+  bottom: 0;
+  padding: 0;
+}
+
+.react-tabs__tab-list {
+  border-bottom: unset;
+  margin: 40px 15px;
+}
+
+.tab-product {
+  padding-top: 20px;
+  margin-bottom: 40px;
+}
+/*# sourceMappingURL=ClickTabPanel.css.map */

@@ -5,12 +5,12 @@ import Nav from '../Nav/Nav'
 
 function Home() {
     return (
-        <div className="Main">
+        <React.Fragment>
             <HeaderApp />
             <BrowserRouter>
                 <Nav />
             </BrowserRouter>
-        </div>
+        </React.Fragment>
     );
 }
 

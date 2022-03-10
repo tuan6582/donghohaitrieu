@@ -18,7 +18,6 @@
 }
 
 .product-container .product-item .box-img > a > img:focus-visible {
-  outline: unset unset unset;
   outline-color: unset;
   outline-style: unset;
   outline-width: unset;

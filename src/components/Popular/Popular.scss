@@ -1,0 +1,87 @@
+.popular-item {
+    border: 1px solid #ccc;
+    position: relative;
+    &:hover .product-header {
+        opacity: 1;
+        transition: all 0.5s;
+        // animation: hoverHead linear 0.5s;
+    }
+    .box-popular-img {
+        text-align: center;
+        padding: 20px 0;
+        & > a {
+            display: block;
+            border-bottom: 1px solid #ccc;
+            & > img {
+                width: 100%;
+            }
+        }
+        & > p {
+            font-size: 1.8rem;
+            font-weight: 600;
+            color: #3a3a3a;
+            margin-bottom: 10px;
+            margin-top: 10px;
+        }
+        .product-total {
+            display: grid;
+            justify-items: center;
+            align-items: center;
+            & > span {
+                color: #c89979;
+                font-size: 1.7rem;
+                font-weight: 700;
+                margin-bottom: 10px;
+            }
+            & > a {
+                display: block;
+                padding: 10px 20px;
+                background-color: #c89979;
+                color: #fff;
+                font-size: 1.6rem;
+                font-weight: 600;
+                text-decoration: none;
+                transition: all 0.5s;
+                &:hover {
+                    transition: all 0.5s;
+                    background-color: #a07a61;
+                }
+            }
+        }
+    }
+    .product-header {
+        position: absolute;
+        top: 10px;
+        right: 20px;
+        opacity: 0;
+        transition: all 0.5s;
+        cursor: pointer;
+        & > a {
+            display: block;
+            & > i {
+                font-size: 2rem;
+                padding: 10px 10px;
+                color: silver;
+                border: 1px solid #ccc;
+                border-radius: 50%;
+                transition: all 0.5s;
+                &:hover {
+                    border: 1px solid transparent;
+                    transition: all 0.5s;
+                    color: #fff;
+                    background-color: red;
+                }
+            }
+        }
+    }
+}
+
+.popular-flex-1 {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.popular-flex-2 {
+    display: flex;
+    margin-top: 20px;
+}

@@ -1,0 +1,113 @@
+.popular-item {
+  border: 1px solid #ccc;
+  position: relative;
+}
+
+.popular-item:hover .product-header {
+  opacity: 1;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.popular-item .box-popular-img {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.popular-item .box-popular-img > a {
+  display: block;
+  border-bottom: 1px solid #ccc;
+}
+
+.popular-item .box-popular-img > a > img {
+  width: 100%;
+}
+
+.popular-item .box-popular-img > p {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #3a3a3a;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.popular-item .box-popular-img .product-total {
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.popular-item .box-popular-img .product-total > span {
+  color: #c89979;
+  font-size: 1.7rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.popular-item .box-popular-img .product-total > a {
+  display: block;
+  padding: 10px 20px;
+  background-color: #c89979;
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-decoration: none;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.popular-item .box-popular-img .product-total > a:hover {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  background-color: #a07a61;
+}
+
+.popular-item .product-header {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  opacity: 0;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.popular-item .product-header > a {
+  display: block;
+}
+
+.popular-item .product-header > a > i {
+  font-size: 2rem;
+  padding: 10px 10px;
+  color: silver;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.popular-item .product-header > a > i:hover {
+  border: 1px solid transparent;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  color: #fff;
+  background-color: red;
+}
+
+.popular-flex-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.popular-flex-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+}
+/*# sourceMappingURL=Popular.css.map */
