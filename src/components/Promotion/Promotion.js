@@ -6,7 +6,7 @@ function Promotion() {
         <div className="popular" data-aos="fade-left">
             <div className="container">
                 <div className="row ">
-                    <div className="col-xl-3 col-lg-3 col-md-4 col-sm-4">
+                    <div className="col-xl-3 col-lg-3 col-md-4 col-sm-4 col-6">
                         <div className="popular-item">
                             <div className="box-popular-img">
                                 <a href="/"><img src={popular09} alt="" /></a>
@@ -23,7 +23,7 @@ function Promotion() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-xl-3 col-lg-3 col-md-4 col-sm-4">
+                    <div className="col-xl-3 col-lg-3 col-md-4 col-sm-4 col-6">
                         <div className="popular-item">
                             <div className="box-popular-img">
                                 <a href="/"><img src={popular10} alt="" /></a>
@@ -40,7 +40,7 @@ function Promotion() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-xl-3 col-lg-3 col-md-4 col-sm-4">
+                    <div className="col-xl-3 col-lg-3 col-md-4 col-sm-4 col-6">
                         <div className="popular-item">
                             <div className="box-popular-img">
                                 <a href="/"><img src={popular11} alt="" /></a>
@@ -57,7 +57,7 @@ function Promotion() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-xl-3 col-lg-3 col-md-4 col-sm-4">
+                    <div className="col-xl-3 col-lg-3 col-md-4 col-sm-4 col-6">
                         <div className="popular-item">
                             <div className="box-popular-img">
                                 <a href="/"><img src={popular12} alt="" /></a>
@@ -74,7 +74,7 @@ function Promotion() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-xl-3 col-lg-3 col-md-4 col-sm-4">
+                    <div className="col-xl-3 col-lg-3 col-md-4 col-sm-4 col-6">
                         <div className="popular-item">
                             <div className="box-popular-img">
                                 <a href="/"><img src={popular13} alt="" /></a>
@@ -91,7 +91,7 @@ function Promotion() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-xl-3 col-lg-3 col-md-4 col-sm-4">
+                    <div className="col-xl-3 col-lg-3 col-md-4 col-sm-4 col-6">
                         <div className="popular-item">
                             <div className="box-popular-img">
                                 <a href="/"><img src={popular14} alt="" /></a>
@@ -108,7 +108,7 @@ function Promotion() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-xl-3 col-lg-3 col-md-4 col-sm-4">
+                    <div className="col-xl-3 col-lg-3 col-md-4 col-sm-4 col-6">
                         <div className="popular-item">
                             <div className="box-popular-img">
                                 <a href="/"><img src={popular15} alt="" /></a>
@@ -125,7 +125,7 @@ function Promotion() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-xl-3 col-lg-3 col-md-4 col-sm-4">
+                    <div className="col-xl-3 col-lg-3 col-md-4 col-sm-4 col-6">
                         <div className="popular-item">
                             <div className="box-popular-img">
                                 <a href="/"><img src={popular16} alt="" /></a>

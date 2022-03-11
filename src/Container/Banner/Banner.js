@@ -7,7 +7,7 @@ function Banner() {
         <div className="banner">
             <div className="container">
                 <div className="row">
-                    <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                    <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
                         <div className="banner-item" data-aos="fade-down">
                             <div className="banner-img">
                                 <a href="/"><img src={trend1} alt="" /></a>
@@ -18,7 +18,7 @@ function Banner() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                    <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
                         <div className="banner-item" data-aos="fade-down">
                             <div className="banner-img">
                                 <a href="/"><img src={trend2} alt="" /></a>

@@ -7,7 +7,7 @@ function News(props) {
         <div className="news" >
             <div className="container">
                 <div className="row">
-                    <div className="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+                    <div className="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12">
                         <div className="news__inner" data-aos="fade-down">
                             <a href="/">
                                 <div className="inner__box--image">
@@ -20,7 +20,7 @@ function News(props) {
                             </a>
                         </div>
                     </div>
-                    <div className="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+                    <div className="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12">
                         <div className="news__inner" data-aos="fade-down">
                             <a href="/">
                                 <div className="inner__box--image">
@@ -33,7 +33,7 @@ function News(props) {
                             </a>
                         </div>
                     </div>
-                    <div className="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+                    <div className="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12">
                         <div className="news__inner" data-aos="fade-down">
                             <a href="/">
                                 <div className="inner__box--image">

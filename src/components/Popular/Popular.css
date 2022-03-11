@@ -124,4 +124,19 @@
     opacity: 1;
   }
 }
+
+@media only screen and (max-width: 46.1875em) {
+  .popular-item .product-header {
+    opacity: 1;
+  }
+}
+
+@media only screen and (min-width: 20em) and (max-width: 23.375em) {
+  .popular-item .box-popular-img {
+    padding: 0;
+  }
+  .popular-item .box-popular-img .product-total > a {
+    font-size: 1.4rem;
+  }
+}
 /*# sourceMappingURL=Popular.css.map */

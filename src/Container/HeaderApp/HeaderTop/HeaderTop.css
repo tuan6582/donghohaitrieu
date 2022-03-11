@@ -73,4 +73,10 @@
     display: none;
   }
 }
+
+@media only screen and (max-width: 46.1875em) {
+  .header-top {
+    display: none;
+  }
+}
 /*# sourceMappingURL=HeaderTop.css.map */

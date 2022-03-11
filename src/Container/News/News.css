@@ -57,4 +57,10 @@
   overflow: hidden;
   padding-top: 10px;
 }
+
+@media only screen and (max-width: 46.1875em) {
+  .news .news__inner > a {
+    margin-bottom: 40px;
+  }
+}
 /*# sourceMappingURL=News.css.map */

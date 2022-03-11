@@ -18,6 +18,7 @@
 .MenuTop .menu-box-top .icon-bars {
   font-size: 3rem;
   color: #fff;
+  padding: 10px 10px;
 }
 
 .MenuTop .menu-box-top .menu-logo > a {
@@ -38,9 +39,107 @@
   color: #fff;
 }
 
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #fff;
+  width: 320px;
+  z-index: 9;
+  height: 100%;
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.menu .bottom__nav--menu > li {
+  font-size: 1.7rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.menu .bottom__nav--menu > li > a {
+  padding: 20px 20px;
+  color: rgba(102, 102, 102, 0.85);
+  display: block;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.menu .close-menu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 3rem;
+  padding: 0 20px;
+  background-color: red;
+  color: #fff;
+  height: 62.5px;
+  z-index: 1;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 8;
+  display: none;
+  -webkit-animation: overlayMenu linear 0.3s;
+          animation: overlayMenu linear 0.3s;
+}
+
+@-webkit-keyframes overlayMenu {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes overlayMenu {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 @media only screen and (min-width: 48em) and (max-width: 63.9375em) {
   .MenuTop {
     display: block;
+  }
+  .menu .bottom__nav--menu > li > a.active {
+    background-color: #ccc;
+    color: #c89979;
+  }
+}
+
+@media only screen and (max-width: 46.1875em) {
+  .MenuTop {
+    display: block;
+  }
+  .menu .bottom__nav--menu > li > a.active {
+    background-color: #ccc;
+    color: #c89979;
+  }
+}
+
+@media only screen and (min-width: 20em) and (max-width: 23.375em) {
+  .MenuTop .menu-box-top .menu-logo > a > img {
+    height: 50px;
+  }
+  .MenuTop .menu-box-top .icon-bars {
+    font-size: 2.5rem;
+  }
+  .MenuTop .menu-box-top .menu-cart {
+    font-size: 2.5rem;
   }
 }
 /*# sourceMappingURL=MenuTop.css.map */

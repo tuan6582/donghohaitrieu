@@ -1,11 +1,11 @@
 import React from 'react';
 import './gioithieu.css'
-
+import MenuTop from '../../components/MenuTop/MenuTop'
 function Gioithieu() {
 
     return (
         <div>
-            <h2>Gioithieu</h2>
+            <MenuTop />
         </div>
     );
 }

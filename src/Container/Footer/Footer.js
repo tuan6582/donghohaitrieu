@@ -7,7 +7,7 @@ function Footer() {
         <div className="footer">
             <div className="container">
                 <div className="row">
-                    <div className="col-xl-3 col-lg-3 col-md-4 col-sm-4">
+                    <div className="col-xl-3 col-lg-3 col-md-4 col-sm-4 col-12">
                         <div className="footer-contact">
                             <h2 className="footer-title">THÔNG TIN LIÊN HỆ</h2>
                             <ul className="footer__contact--list">
@@ -57,7 +57,7 @@ function Footer() {
                             </ul>
                         </div>
                     </div>
-                    <div className="col-xl-3 col-lg-3 col-md-4 col-sm-4">
+                    <div className="col-xl-3 col-lg-3 col-md-4 col-sm-4 col-12">
                         <div className="footer-connective">
                             <h2 className="footer-title">LIÊN KẾT</h2>
                             <ul className="connective-list">
@@ -80,7 +80,7 @@ function Footer() {
 
                         </div>
                     </div>
-                    <div className="col-xl-3 col-lg-3 col-md-4 col-sm-4">
+                    <div className="col-xl-3 col-lg-3 col-md-4 col-sm-4 col-12">
                         <div className="footer-support">
                             <h2 className="footer-title">HỖ TRỢ</h2>
                             <ul className="footer-support-list">
@@ -93,7 +93,7 @@ function Footer() {
                             </ul>
                         </div>
                     </div>
-                    <div className="col-xl-3 col-lg-3 col-md-4 col-sm-4">
+                    <div className="col-xl-3 col-lg-3 col-md-4 col-sm-4 col-12">
                         <div className="footer-app">
                             <h2 className="footer-title">TẢI ỨNG DỤNG TRÊN</h2>
                             <p>Ứng dụng Mona Watch hiện có sẵn trên Google Play & App Store. Tải nó ngay.</p>

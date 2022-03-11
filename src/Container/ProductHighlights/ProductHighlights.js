@@ -6,7 +6,7 @@ import { product01, product02, product03, product04, product05 } from '../asstes
 
 function ProductHighlights() {
     var settings = {
-        dots: true,
+        dots: false,
         infinite: false,
         speed: 500,
         slidesToShow: 4,
@@ -19,7 +19,7 @@ function ProductHighlights() {
                     slidesToShow: 3,
                     slidesToScroll: 3,
                     infinite: true,
-                    dots: true
+                    dots: false
                 }
             },
             {

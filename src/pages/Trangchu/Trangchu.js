@@ -12,15 +12,15 @@ import MenuTop from '../../components/MenuTop/MenuTop'
 function Trangchu() {
     return (
         <div className="wrap">
-            <MenuTop />
-            <Slider />
-            <Banner />
-            <ProductHighlights />
-            <BannerProduct />
-            <ClickTabPanel />
-            <News />
-            <Information />
-            <Footer />
+            <MenuTop />   {/** Menu Tablet Mobile */}
+            <Slider />      {/** Slider */}
+            <Banner />      {/** banner top */}
+            <ProductHighlights />     {/** product slick */}
+            <BannerProduct />   {/** banner bottom */}
+            <ClickTabPanel />    {/** product chuyển tab */}
+            <News />     {/** tin tức về đồng hồ */}
+            <Information />  {/** đăng ký nhận thông tin*/}
+            <Footer />     {/** Footer */}
         </div>
     );
 }

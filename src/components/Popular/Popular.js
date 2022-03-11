@@ -8,7 +8,7 @@ function Popular() {
         <div className="popular" data-aos="fade-right">
             <div className="container">
                 <div className="row ">
-                    <div className="col-xl-3 col-lg-3 col-md-4 col-sm-4">
+                    <div className="col-xl-3 col-lg-3 col-md-4 col-sm-4 col-6">
                         <div className="popular-item">
                             <div className="box-popular-img">
                                 <a href="/"><img src={popular01} alt="" /></a>
@@ -26,7 +26,7 @@ function Popular() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-xl-3 col-lg-3 col-md-4 col-sm-4">
+                    <div className="col-xl-3 col-lg-3 col-md-4 col-sm-4 col-6">
                         <div className="popular-item">
                             <div className="box-popular-img">
                                 <a href="/"><img src={popular02} alt="" /></a>
@@ -43,7 +43,7 @@ function Popular() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-xl-3 col-lg-3 col-md-4 col-sm-4">
+                    <div className="col-xl-3 col-lg-3 col-md-4 col-sm-4 col-6">
                         <div className="popular-item">
                             <div className="box-popular-img">
                                 <a href="/"><img src={popular03} alt="" /></a>
@@ -60,7 +60,7 @@ function Popular() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-xl-3 col-lg-3 col-md-4 col-sm-4">
+                    <div className="col-xl-3 col-lg-3 col-md-4 col-sm-4 col-6">
                         <div className="popular-item">
                             <div className="box-popular-img">
                                 <a href="/"><img src={popular04} alt="" /></a>
@@ -77,7 +77,7 @@ function Popular() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-xl-3 col-lg-3 col-md-4 col-sm-4">
+                    <div className="col-xl-3 col-lg-3 col-md-4 col-sm-4 col-6">
                         <div className="popular-item">
                             <div className="box-popular-img">
                                 <a href="/"><img src={popular05} alt="" /></a>
@@ -94,7 +94,7 @@ function Popular() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-xl-3 col-lg-3 col-md-4 col-sm-4">
+                    <div className="col-xl-3 col-lg-3 col-md-4 col-sm-4 col-6">
                         <div className="popular-item">
                             <div className="box-popular-img">
                                 <a href="/"><img src={popular06} alt="" /></a>
@@ -111,7 +111,7 @@ function Popular() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-xl-3 col-lg-3 col-md-4 col-sm-4">
+                    <div className="col-xl-3 col-lg-3 col-md-4 col-sm-4 col-6">
                         <div className="popular-item">
                             <div className="box-popular-img">
                                 <a href="/"><img src={popular07} alt="" /></a>
@@ -128,7 +128,7 @@ function Popular() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-xl-3 col-lg-3 col-md-4 col-sm-4">
+                    <div className="col-xl-3 col-lg-3 col-md-4 col-sm-4 col-6">
                         <div className="popular-item">
                             <div className="box-popular-img">
                                 <a href="/"><img src={popular08} alt="" /></a>
