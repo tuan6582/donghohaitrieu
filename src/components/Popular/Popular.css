@@ -1,7 +1,6 @@
 .popular-item {
   margin: 10px 0;
   border: 1px solid #ccc;
-  position: relative;
 }
 
 .popular-item:hover .product-header {

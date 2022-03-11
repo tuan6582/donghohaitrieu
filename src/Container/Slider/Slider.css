@@ -69,11 +69,6 @@
   font-size: 3rem;
 }
 
-body[data-aos-duration="400"] [data-aos] {
-  -webkit-transition-duration: 1s;
-          transition-duration: 1s;
-}
-
 @media only screen and (min-width: 48em) and (max-width: 63.9375em) {
   .slick-slider .slider-item .slider-text > h3 {
     font-size: 1.6rem;

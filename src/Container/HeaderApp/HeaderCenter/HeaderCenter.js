@@ -7,7 +7,6 @@ function HeaderCenter() {
             <div className="container">
                 <div className="row">
                     <div className="col-xl-3 col-lg-3">
-
                         <div className="header__center--logo">
                             <a href="/"><img src={logoHome} alt="" /></a>
                         </div>
