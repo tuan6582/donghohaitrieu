@@ -9,29 +9,29 @@ import ProductNew from '../../components/ProductNew/ProductNew'
 function ClickTabPanel() {
     return (
         <div className="tab-product">
-            <div className="container" style={{ paddingLeft: 0, paddingRight: 0 }}>
-                <div className="row ">
-                    <div className="col-xl-12 col-lg-12">
-                        <Tabs>
-                            <TabList>
+            <Tabs>
+                <TabList>
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                                 <Tab>Sản phẩm phổ biến</Tab>
                                 <Tab>Sản phẩm khuyến mãi</Tab>
                                 <Tab>Sản phẩm mới</Tab>
-                            </TabList>
-
-                            <TabPanel>
-                                <Popular />
-                            </TabPanel>
-                            <TabPanel>
-                                <Promotion />
-                            </TabPanel>
-                            <TabPanel>
-                                <ProductNew />
-                            </TabPanel>
-                        </Tabs>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
+                </TabList>
+
+                <TabPanel>
+                    <Popular />
+                </TabPanel>
+                <TabPanel>
+                    <Promotion />
+                </TabPanel>
+                <TabPanel>
+                    <ProductNew />
+                </TabPanel>
+            </Tabs>
         </div>
     );
 }

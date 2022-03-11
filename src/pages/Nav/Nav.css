@@ -47,4 +47,13 @@
   color: #be9979;
   border-bottom: 1px solid #be9979;
 }
+
+@media only screen and (min-width: 48em) and (max-width: 63.9375em) {
+  .nav-bottom .bottom__block--nav .bottom__nav > li {
+    margin: 0 18px;
+  }
+  .nav-bottom .bottom__block--nav .bottom__nav {
+    display: none;
+  }
+}
 /*# sourceMappingURL=Nav.css.map */

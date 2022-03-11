@@ -96,4 +96,13 @@
     opacity: 1;
   }
 }
+
+@media only screen and (min-width: 48em) and (max-width: 63.9375em) {
+  .information .information-left > h2 {
+    font-size: 2.2rem;
+  }
+  .information .information-right .information-submit .btn-submit-email {
+    padding: 10px 15px;
+  }
+}
 /*# sourceMappingURL=Information.css.map */

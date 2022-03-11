@@ -19,7 +19,7 @@ function Nav() {
             <div className="nav-bottom">
                 <div className="container">
                     <div className="row">
-                        <div className="col-xl-12 col-lg-12">
+                        <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                             <div className="bottom__block--nav">
                                 <ul className="bottom__nav">
                                     <li><NavLink activeclassname="active" to="/" >Trang chủ</NavLink></li>

@@ -29,12 +29,12 @@ function Information() {
             <div className="container">
                 <div className="information-app">
                     <div className="row">
-                        <div className="col-xl-6 col-lg-6">
+                        <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6">
                             <div className="information-left">
                                 <h2>ĐĂNG KÝ NHẬN THÔNG TIN</h2>
                             </div>
                         </div>
-                        <div className="col-xl-6 col-lg-6">
+                        <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6">
                             <div className="information-right">
                                 <div className="information-check">
                                     <input type="text" placeholder="Email..." ref={inputInformationRef} />

@@ -5,7 +5,7 @@ function BannerProduct() {
         <div className="banner">
             <div className="container">
                 <div className="row">
-                    <div className="col-xl-6 col-lg-6">
+                    <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6">
                         <div className="banner-item" data-aos="fade-up">
                             <div className="banner-img">
                                 <a href="/"><img src={banner1} alt="" /></a>
@@ -16,7 +16,7 @@ function BannerProduct() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-xl-6 col-lg-6">
+                    <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6">
                         <div className="banner-item" data-aos="fade-down">
                             <div className="banner-img">
                                 <a href="/"><img src={banner2} alt="" /></a>

@@ -1,17 +1,13 @@
 import React from 'react';
-import { Link, Route, Routes } from 'react-router-dom';
-import Blogs from '../../pages/Blogs/Blogs';
-import Donghonam from '../../pages/Donghonam/Donghonam';
-import Donghonu from '../../pages/Donghonu/Donghonu';
-import Gioithieu from '../../pages/Gioithieu/Gioithieu';
-import Lienhe from '../../pages/Lienhe/Lienhe';
+import { Link } from 'react-router-dom';
+import { AppStore, GooglePlay } from '../asstes/img';
 import './Footer.css'
 function Footer() {
     return (
         <div className="footer">
             <div className="container">
                 <div className="row">
-                    <div className="col-xl-3 col-lg-3">
+                    <div className="col-xl-3 col-lg-3 col-md-4 col-sm-4">
                         <div className="footer-contact">
                             <h2 className="footer-title">THÔNG TIN LIÊN HỆ</h2>
                             <ul className="footer__contact--list">
@@ -61,13 +57,13 @@ function Footer() {
                             </ul>
                         </div>
                     </div>
-                    <div className="col-xl-3 col-lg-3">
+                    <div className="col-xl-3 col-lg-3 col-md-4 col-sm-4">
                         <div className="footer-connective">
                             <h2 className="footer-title">LIÊN KẾT</h2>
                             <ul className="connective-list">
-                                <div className="connective-item">
+                                <li className="connective-item">
                                     <Link to="/gioithieu">Giới thiệu</Link>
-                                </div>
+                                </li>
                                 <li className="connective-item">
                                     <Link to="/donghonam">Đồng hồ nam</Link>
                                 </li>
@@ -84,18 +80,32 @@ function Footer() {
 
                         </div>
                     </div>
-                    <div className="col-xl-3 col-lg-3">
-
+                    <div className="col-xl-3 col-lg-3 col-md-4 col-sm-4">
+                        <div className="footer-support">
+                            <h2 className="footer-title">HỖ TRỢ</h2>
+                            <ul className="footer-support-list">
+                                <li className="footer-support-item"><a href="/">Hướng dẫn mua hàng</a></li>
+                                <li className="footer-support-item"><a href="/">Hướng dẫn thanh toán</a></li>
+                                <li className="footer-support-item"><a href="/">Chính sách bảo hành</a></li>
+                                <li className="footer-support-item"><a href="/">Chính sách đổi trả</a></li>
+                                <li className="footer-support-item"><a href="/">Tư vấn khách hàng
+                                </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div className="col-xl-3 col-lg-3 col-md-4 col-sm-4">
+                        <div className="footer-app">
+                            <h2 className="footer-title">TẢI ỨNG DỤNG TRÊN</h2>
+                            <p>Ứng dụng Mona Watch hiện có sẵn trên Google Play & App Store. Tải nó ngay.</p>
+                            <div className="footer-app-dowload">
+                                <img src={GooglePlay} alt="" />
+                                <img src={AppStore} alt="" />
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <Routes>
-                <Route path="/gioithieu" element={<Gioithieu />} />
-                <Route path="/donghonam" element={<Donghonam />} />
-                <Route path="/donghonu" element={<Donghonu />} />
-                <Route path="/blogs" element={<Blogs />} />
-                <Route path="/lienhe" element={<Lienhe />} />
-            </Routes>
+
         </div>
     );
 }

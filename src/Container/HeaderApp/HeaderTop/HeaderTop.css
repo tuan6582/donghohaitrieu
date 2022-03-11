@@ -67,4 +67,10 @@
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
+
+@media only screen and (min-width: 48em) and (max-width: 63.9375em) {
+  .header-top {
+    display: none;
+  }
+}
 /*# sourceMappingURL=HeaderTop.css.map */

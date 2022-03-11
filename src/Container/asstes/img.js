@@ -48,6 +48,11 @@ import popular24 from './img/popular/popular-24.jpg'
 import news01 from '../asstes/img/news/news-1.jpg'
 import news02 from '../asstes/img/news/news-2.jpg'
 
+// dowload
+
+import GooglePlay from '../asstes/img/img-googleplay.jpg'
+import AppStore from '../asstes/img/img-appstore.jpg'
+
 
 export {
 
@@ -98,4 +103,9 @@ export {
     // news
     news01,
     news02,
+
+    // dowload
+
+    GooglePlay,
+    AppStore,
 }

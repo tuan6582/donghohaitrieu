@@ -7,11 +7,12 @@ import ClickTabPanel from '../../Container/ClickTabPanel/ClickTabPanel';
 import News from '../../Container/News/News'
 import Footer from '../../Container/Footer/Footer';
 import Information from '../../Container/Information/Information'
-
+import MenuTop from '../../components/MenuTop/MenuTop'
 
 function Trangchu() {
     return (
         <div className="wrap">
+            <MenuTop />
             <Slider />
             <Banner />
             <ProductHighlights />

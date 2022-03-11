@@ -1,0 +1,46 @@
+.MenuTop {
+  background-color: #333;
+  display: none;
+}
+
+.MenuTop .menu-box-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.MenuTop .menu-box-top .icon-bars {
+  font-size: 3rem;
+  color: #fff;
+}
+
+.MenuTop .menu-box-top .menu-logo > a {
+  display: block;
+}
+
+.MenuTop .menu-box-top .menu-logo > a > img {
+  max-width: 200px;
+  max-height: 100px;
+  width: 100%;
+}
+
+.MenuTop .menu-box-top .menu-cart {
+  font-size: 3rem;
+}
+
+.MenuTop .menu-box-top .menu-cart > a {
+  color: #fff;
+}
+
+@media only screen and (min-width: 48em) and (max-width: 63.9375em) {
+  .MenuTop {
+    display: block;
+  }
+}
+/*# sourceMappingURL=MenuTop.css.map */

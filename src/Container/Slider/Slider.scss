@@ -9,12 +9,15 @@
             font-size: 1.6rem;
             color: #fff;
             & > h3 {
-                font-size: 3rem;
+                font-size: 2rem;
                 margin-bottom: 10px;
             }
             & > h4 {
-                font-size: 5rem;
+                font-size: 3rem;
                 margin: 10px 0;
+            }
+            & > p {
+                font-size: 1.5rem;
             }
             & .button-outline {
                 font-size: 2rem;
@@ -58,4 +61,22 @@
 
 body[data-aos-duration="400"] [data-aos] {
     transition-duration: 1s;
+}
+
+@media only screen and (min-width: 48em) and (max-width: 63.9375em) {
+    .slick-slider .slider-item .slider-text > h3 {
+        font-size: 1.6rem;
+    }
+
+    .slick-slider .slider-item .slider-text > h4 {
+        font-size: 2rem;
+    }
+
+    .slick-slider .slider-item .slider-text > p {
+        font-size: 1.4rem;
+    }
+    .slick-slider .slider-item .slider-text {
+        top: 20%;
+        width: 60%;
+    }
 }

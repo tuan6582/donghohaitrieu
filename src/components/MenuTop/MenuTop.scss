@@ -1,0 +1,35 @@
+.MenuTop {
+    background-color: #333;
+    display: none;
+    .menu-box-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .icon-bars {
+            font-size: 3rem;
+            color: #fff;
+        }
+        .menu-logo {
+            & > a {
+                display: block;
+                & > img {
+                    max-width: 200px;
+                    max-height: 100px;
+                    width: 100%;
+                }
+            }
+        }
+        .menu-cart {
+            font-size: 3rem;
+            & > a {
+                color: #fff;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 48em) and (max-width: 63.9375em) {
+    .MenuTop {
+        display: block;
+    }
+}

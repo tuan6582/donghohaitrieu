@@ -1,0 +1,26 @@
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #fff;
+  width: 320px;
+  z-index: 9;
+  height: 100%;
+}
+
+.menu .bottom__nav--menu {
+  padding: 20px 0;
+}
+
+.menu .bottom__nav--menu > li {
+  font-size: 1.6rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.menu .bottom__nav--menu > li > a {
+  padding: 20px 20px;
+  color: #333;
+  display: block;
+}
+/*# sourceMappingURL=Menu.css.map */

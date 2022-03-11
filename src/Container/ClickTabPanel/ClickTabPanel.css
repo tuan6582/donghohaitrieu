@@ -34,5 +34,13 @@
 .tab-product {
   padding-top: 20px;
   margin-bottom: 40px;
+  overflow: hidden;
+}
+
+@media only screen and (min-width: 48em) and (max-width: 63.9375em) {
+  .react-tabs__tab {
+    margin-right: 2rem;
+    font-size: 2.4rem;
+  }
 }
 /*# sourceMappingURL=ClickTabPanel.css.map */

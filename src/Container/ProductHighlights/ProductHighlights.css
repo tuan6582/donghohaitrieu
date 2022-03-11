@@ -1,6 +1,7 @@
 .product-container {
   padding-top: 20px;
   margin-bottom: 40px;
+  overflow: hidden;
 }
 
 .product-container .product-item {

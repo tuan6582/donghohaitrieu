@@ -20,11 +20,15 @@
 .header-center {
     border-bottom: 1px solid #484848;
     padding: 20px 0;
-    .header__center--logo > a > img {
-        max-width: 200px;
-        max-height: 100px;
-        width: 100%;
+    .header__center--logo > a {
+        display: block;
+        & > img {
+            max-width: 200px;
+            max-height: 100px;
+            width: 100%;
+        }
     }
+
     .header__center--seacrh {
         position: relative;
     }
@@ -166,5 +170,11 @@
                 }
             }
         }
+    }
+}
+
+@media only screen and (min-width: 48em) and (max-width: 63.9375em) {
+    .header-center {
+        display: none;
     }
 }
