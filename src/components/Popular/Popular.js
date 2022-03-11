@@ -38,7 +38,7 @@ function Popular() {
                                     </div>
                                 </div>
                                 <div className="product-header">
-                                    <a href="/">
+                                    <a href="/gioithieu">
                                         <i className="fa-solid fa-heart"></i>
                                     </a>
                                 </div>

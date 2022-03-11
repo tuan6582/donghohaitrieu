@@ -10,7 +10,7 @@ function ProductHighlights() {
         infinite: false,
         speed: 500,
         slidesToShow: 4,
-        slidesToScroll: 4,
+        slidesToScroll: 1,
         initialSlide: 0,
         responsive: [
             {
@@ -105,6 +105,20 @@ function ProductHighlights() {
                             <div className="product-item">
                                 <div className="box-img">
                                     <a href="/"> <img src={product05} alt="" /></a>
+                                </div>
+                                <div className="box-text">
+                                    <p>Classico</p>
+                                    <div className="product-total">
+                                        <span>700, 000 đ</span>
+                                        <a href="/"> Thêm vào giỏ</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div className="product-item">
+                                <div className="box-img">
+                                    <a href="/"> <img src={product01} alt="" /></a>
                                 </div>
                                 <div className="box-text">
                                     <p>Classico</p>

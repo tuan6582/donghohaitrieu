@@ -1,0 +1,76 @@
+.footer {
+    background-color: #333333;
+    padding: 40px 0;
+    .footer-contact {
+        color: #fff;
+        .footer-title {
+            font-weight: 700;
+            margin-bottom: 30px;
+        }
+        .footer__contact--list {
+            display: grid;
+            align-items: center;
+            .footer__contact--item {
+                font-size: 1.6rem;
+                margin-bottom: 20px;
+                & > i {
+                    margin-right: 8px;
+                }
+                & > a {
+                    color: #fff;
+                    text-decoration: none;
+                    transition: all 0.3s;
+                    &:hover {
+                        color: #c89979;
+                    }
+                    & > i {
+                        margin-right: 8px;
+                    }
+                }
+            }
+        }
+        .fooer__contact--icon {
+            display: flex;
+            align-items: center;
+            .contact__icon--item {
+                font-size: 2rem;
+                & > a {
+                    color: #fff;
+                    display: block;
+                    padding: 3px 12px;
+                    margin: 0 5px;
+                    border-radius: 50%;
+                    opacity: 0.9;
+                    transition: all 0.3s;
+                    &:hover {
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+    }
+    .footer-connective {
+        color: #fff;
+        text-align: center;
+        .footer-title {
+            font-weight: 700;
+            margin-bottom: 30px;
+        }
+        .connective-list {
+            display: grid;
+            align-items: center;
+            .connective-item {
+                font-size: 1.6rem;
+                margin-bottom: 20px;
+                & > a {
+                    color: #fff;
+                    text-decoration: none;
+                    transition: all 0.3s;
+                    &:hover {
+                        color: #c89979;
+                    }
+                }
+            }
+        }
+    }
+}

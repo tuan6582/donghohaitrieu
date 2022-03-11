@@ -1,4 +1,6 @@
 .news {
+  margin-bottom: 40px;
+  padding-top: 40px;
   overflow: hidden;
 }
 
@@ -38,6 +40,12 @@
   color: #1c1c1c;
   padding-top: 10px;
   margin: 15px 0 15px 0;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.news .news__inner > a .inner__box--text > h3:hover {
+  color: #c89979;
 }
 
 .news .news__inner > a .inner__box--text > p {

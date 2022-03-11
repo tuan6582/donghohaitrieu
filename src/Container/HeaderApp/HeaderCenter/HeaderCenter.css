@@ -16,12 +16,6 @@
   }
 }
 
-.row {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
 .header-center {
   border-bottom: 1px solid #484848;
   padding: 20px 0;

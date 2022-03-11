@@ -5,6 +5,9 @@ import ProductHighlights from '../../Container/ProductHighlights/ProductHighligh
 import BannerProduct from '../../Container/BannerProduct/BannerProduct'
 import ClickTabPanel from '../../Container/ClickTabPanel/ClickTabPanel';
 import News from '../../Container/News/News'
+import Footer from '../../Container/Footer/Footer';
+import Information from '../../Container/Information/Information'
+
 
 function Trangchu() {
     return (
@@ -15,6 +18,8 @@ function Trangchu() {
             <BannerProduct />
             <ClickTabPanel />
             <News />
+            <Information />
+            <Footer />
         </div>
     );
 }

@@ -1,0 +1,108 @@
+.footer {
+  background-color: #333333;
+  padding: 40px 0;
+}
+
+.footer .footer-contact {
+  color: #fff;
+}
+
+.footer .footer-contact .footer-title {
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.footer .footer-contact .footer__contact--list {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer .footer-contact .footer__contact--list .footer__contact--item {
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+}
+
+.footer .footer-contact .footer__contact--list .footer__contact--item > i {
+  margin-right: 8px;
+}
+
+.footer .footer-contact .footer__contact--list .footer__contact--item > a {
+  color: #fff;
+  text-decoration: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.footer .footer-contact .footer__contact--list .footer__contact--item > a:hover {
+  color: #c89979;
+}
+
+.footer .footer-contact .footer__contact--list .footer__contact--item > a > i {
+  margin-right: 8px;
+}
+
+.footer .footer-contact .fooer__contact--icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer .footer-contact .fooer__contact--icon .contact__icon--item {
+  font-size: 2rem;
+}
+
+.footer .footer-contact .fooer__contact--icon .contact__icon--item > a {
+  color: #fff;
+  display: block;
+  padding: 3px 12px;
+  margin: 0 5px;
+  border-radius: 50%;
+  opacity: 0.9;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.footer .footer-contact .fooer__contact--icon .contact__icon--item > a:hover {
+  opacity: 1;
+}
+
+.footer .footer-connective {
+  color: #fff;
+  text-align: center;
+}
+
+.footer .footer-connective .footer-title {
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.footer .footer-connective .connective-list {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer .footer-connective .connective-list .connective-item {
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+}
+
+.footer .footer-connective .connective-list .connective-item > a {
+  color: #fff;
+  text-decoration: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.footer .footer-connective .connective-list .connective-item > a:hover {
+  color: #c89979;
+}
+/*# sourceMappingURL=Footer.css.map */
