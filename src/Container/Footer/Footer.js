@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, Route, Router, Routes } from 'react-router-dom';
+import { Link, Route, Routes } from 'react-router-dom';
 import Blogs from '../../pages/Blogs/Blogs';
 import Donghonam from '../../pages/Donghonam/Donghonam';
 import Donghonu from '../../pages/Donghonu/Donghonu';
@@ -83,6 +83,9 @@ function Footer() {
                             </ul>
 
                         </div>
+                    </div>
+                    <div className="col-xl-3 col-lg-3">
+
                     </div>
                 </div>
             </div>
