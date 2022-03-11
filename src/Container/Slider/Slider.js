@@ -6,8 +6,6 @@ import { slider1 } from "../asstes/img"
 import { slider2 } from "../asstes/img"
 import './Slider.css'
 
-import AOS from 'aos';
-AOS.init();
 
 export default class AutoPlay extends Component {
     render() {
