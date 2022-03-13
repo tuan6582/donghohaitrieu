@@ -53,6 +53,13 @@ import news02 from '../asstes/img/news/news-2.jpg'
 import GooglePlay from '../asstes/img/img-googleplay.jpg'
 import AppStore from '../asstes/img/img-appstore.jpg'
 
+// gioithieu
+
+import image01 from '../asstes/img/gioithieu/image01.jpg'
+// khách hàng
+import customer01 from '../asstes/img/gioithieu/customer01.png'
+import customer02 from '../asstes/img/gioithieu/customer02.png'
+import customer03 from '../asstes/img/gioithieu/customer03.png'
 
 export {
 
@@ -108,4 +115,14 @@ export {
 
     GooglePlay,
     AppStore,
+
+    // gioi thieu
+
+    image01,
+
+    // khach hang 
+
+    customer01,
+    customer02,
+    customer03,
 }

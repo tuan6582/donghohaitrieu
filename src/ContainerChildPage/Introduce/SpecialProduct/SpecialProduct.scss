@@ -1,0 +1,27 @@
+.special {
+    .box-special {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 30px;
+        .special-icon {
+            font-size: 6rem;
+            margin-right: 12px;
+        }
+        .special-text {
+            & > h3 {
+                font-size: 2.3rem;
+            }
+            & > p {
+                font-size: 1.6rem;
+                color: #353535;
+                margin-top: 20px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 48em) and (max-width: 63.9375em) {
+    .special {
+        margin-bottom: 40px;
+    }
+}

@@ -6,7 +6,7 @@ function News(props) {
     return (
         <div className="news" >
             <div className="container">
-                <div className="row">
+                <div className="row" >
                     <div className="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12">
                         <div className="news__inner" data-aos="fade-down">
                             <a href="/">
@@ -47,8 +47,8 @@ function News(props) {
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
+            </div >
+        </div >
     );
 }
 

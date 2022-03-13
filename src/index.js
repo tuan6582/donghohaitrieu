@@ -4,18 +4,21 @@ import ReactDOM from 'react-dom';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import 'aos/dist/aos.css'
-import 'aos/dist/aos'
-
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import AOS from 'aos';
-AOS.init();
+
+
+import 'aos/dist/aos.css'
+import Aos from 'aos';
+
+Aos.init();
 
 ReactDOM.render(
+
   <React.StrictMode>
+
     <App />
 
   </React.StrictMode>,

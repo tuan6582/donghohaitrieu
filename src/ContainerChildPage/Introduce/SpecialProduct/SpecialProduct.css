@@ -1,0 +1,31 @@
+.special .box-special {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-bottom: 30px;
+}
+
+.special .box-special .special-icon {
+  font-size: 6rem;
+  margin-right: 12px;
+}
+
+.special .box-special .special-text > h3 {
+  font-size: 2.3rem;
+}
+
+.special .box-special .special-text > p {
+  font-size: 1.6rem;
+  color: #353535;
+  margin-top: 20px;
+}
+
+@media only screen and (min-width: 48em) and (max-width: 63.9375em) {
+  .special {
+    margin-bottom: 40px;
+  }
+}
+/*# sourceMappingURL=SpecialProduct.css.map */

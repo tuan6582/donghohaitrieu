@@ -6,16 +6,43 @@ import Donghonu from '../../pages/Donghonu/Donghonu'
 import Blogs from '../../pages/Blogs/Blogs'
 import Lienhe from '../../pages/Lienhe/Lienhe'
 import Trangchu from '../../pages/Trangchu/Trangchu'
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './Nav.css'
-import { } from 'react-router-dom'
+
 
 
 
 function Nav() {
 
+    const [backToTop, setBackToTop] = useState(false)
+
+    useEffect(() => {
+
+        const handleGoTop = () => {
+            if (window.scrollY > 150) {
+                setBackToTop(true)
+            } else {
+                setBackToTop(false)
+            }
+        }
+
+        window.addEventListener('scroll', handleGoTop)
+    }, [])
+
+
+    const handleScroll = () => {
+        if (window.scrollY > 150) {
+            document.querySelector('.nav-bottom').classList.add('active-nav-top')
+        } else {
+            document.querySelector('.nav-bottom').classList.remove('active-nav-top')
+        }
+    }
+
+    window.addEventListener('scroll', handleScroll)
+
     return (
         <React.Fragment>
+
             <div className="nav-bottom">
                 <div className="container">
                     <div className="row">
@@ -34,6 +61,12 @@ function Nav() {
                     </div>
                 </div>
             </div>
+
+            {backToTop && (
+                <div className="go-top">
+                    <a href="#Home"><i className="fa-solid fa-angles-up"></i></a>
+                </div>
+            )}
 
             <Routes>
                 <Route path="///*" element={<Trangchu />} />

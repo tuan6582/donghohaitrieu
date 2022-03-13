@@ -1,0 +1,27 @@
+.review-product {
+    margin: 40px 0 20px 0;
+    padding-top: 20px;
+    .box-customer {
+        text-align: center;
+        .customer-img {
+            margin-bottom: 1rem;
+            & > img {
+                width: 100px;
+                max-width: 100%;
+            }
+        }
+        .customer-text {
+            & > p {
+                font-size: 1.6rem;
+                font-style: italic;
+                color: #353535;
+                margin: 20px 0;
+            }
+            & > h3 {
+                font-size: 2rem;
+                font-style: italic;
+                font-weight: 700;
+            }
+        }
+    }
+}

@@ -3,11 +3,11 @@ import './Promotion.css'
 import { popular09, popular10, popular11, popular12, popular13, popular14, popular15, popular16 } from '../../Container/asstes/img'
 function Promotion() {
     return (
-        <div className="popular" data-aos="fade-left">
+        <div className="popular" >
             <div className="container">
                 <div className="row ">
                     <div className="col-xl-3 col-lg-3 col-md-4 col-sm-4 col-6">
-                        <div className="popular-item">
+                        <div className="popular-item" data-aos="fade-left">
                             <div className="box-popular-img">
                                 <a href="/"><img src={popular09} alt="" /></a>
                                 <p>Simple 10</p>
@@ -24,7 +24,7 @@ function Promotion() {
                         </div>
                     </div>
                     <div className="col-xl-3 col-lg-3 col-md-4 col-sm-4 col-6">
-                        <div className="popular-item">
+                        <div className="popular-item" data-aos="fade-left">
                             <div className="box-popular-img">
                                 <a href="/"><img src={popular10} alt="" /></a>
                                 <p>Simple 9</p>
@@ -41,7 +41,7 @@ function Promotion() {
                         </div>
                     </div>
                     <div className="col-xl-3 col-lg-3 col-md-4 col-sm-4 col-6">
-                        <div className="popular-item">
+                        <div className="popular-item" data-aos="fade-left">
                             <div className="box-popular-img">
                                 <a href="/"><img src={popular11} alt="" /></a>
                                 <p>Simple 8</p>
@@ -58,7 +58,7 @@ function Promotion() {
                         </div>
                     </div>
                     <div className="col-xl-3 col-lg-3 col-md-4 col-sm-4 col-6">
-                        <div className="popular-item">
+                        <div className="popular-item" data-aos="fade-left">
                             <div className="box-popular-img">
                                 <a href="/"><img src={popular12} alt="" /></a>
                                 <p>Simple 7</p>
@@ -75,7 +75,7 @@ function Promotion() {
                         </div>
                     </div>
                     <div className="col-xl-3 col-lg-3 col-md-4 col-sm-4 col-6">
-                        <div className="popular-item">
+                        <div className="popular-item" data-aos="fade-left">
                             <div className="box-popular-img">
                                 <a href="/"><img src={popular13} alt="" /></a>
                                 <p>Simple 6</p>
@@ -92,7 +92,7 @@ function Promotion() {
                         </div>
                     </div>
                     <div className="col-xl-3 col-lg-3 col-md-4 col-sm-4 col-6">
-                        <div className="popular-item">
+                        <div className="popular-item" data-aos="fade-left">
                             <div className="box-popular-img">
                                 <a href="/"><img src={popular14} alt="" /></a>
                                 <p>Simple 5</p>
@@ -109,7 +109,7 @@ function Promotion() {
                         </div>
                     </div>
                     <div className="col-xl-3 col-lg-3 col-md-4 col-sm-4 col-6">
-                        <div className="popular-item">
+                        <div className="popular-item" data-aos="fade-left">
                             <div className="box-popular-img">
                                 <a href="/"><img src={popular15} alt="" /></a>
                                 <p>Simple 4</p>
@@ -126,7 +126,7 @@ function Promotion() {
                         </div>
                     </div>
                     <div className="col-xl-3 col-lg-3 col-md-4 col-sm-4 col-6">
-                        <div className="popular-item">
+                        <div className="popular-item" data-aos="fade-left">
                             <div className="box-popular-img">
                                 <a href="/"><img src={popular16} alt="" /></a>
                                 <p>Simple 3</p>

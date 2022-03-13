@@ -1,7 +1,8 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { AppStore, GooglePlay } from '../asstes/img';
 import './Footer.css'
+
 function Footer() {
     return (
         <div className="footer">
@@ -62,19 +63,19 @@ function Footer() {
                             <h2 className="footer-title">LIÊN KẾT</h2>
                             <ul className="connective-list">
                                 <li className="connective-item">
-                                    <Link to="/gioithieu">Giới thiệu</Link>
+                                    <NavLink activeclassname="active" to="/gioithieu">Giới thiệu</NavLink>
                                 </li>
                                 <li className="connective-item">
-                                    <Link to="/donghonam">Đồng hồ nam</Link>
+                                    <NavLink activeclassname="active" to="/donghonam">Đồng hồ nam</NavLink>
                                 </li>
                                 <li className="connective-item">
-                                    <Link to="/donghonu">Đồng hồ nữ</Link>
+                                    <NavLink activeclassname="active" to="/donghonu">Đồng hồ nữ</NavLink>
                                 </li>
                                 <li className="connective-item">
-                                    <Link to="/blogs">Blogs</Link>
+                                    <NavLink activeclassname="active" to="/blogs">Blogs</NavLink>
                                 </li>
                                 <li className="connective-item">
-                                    <Link to="/lienhe">Liên hệ</Link>
+                                    <NavLink activeclassname="active" to="/lienhe">Liên hệ</NavLink>
                                 </li>
                             </ul>
 

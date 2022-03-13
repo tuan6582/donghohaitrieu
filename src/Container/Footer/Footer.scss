@@ -117,6 +117,10 @@
     }
 }
 
+.footer .footer-connective .connective-list .connective-item > a.active {
+    color: #be9979;
+}
+
 @media only screen and (min-width: 48em) and (max-width: 63.9375em) {
     .footer .footer-app {
         margin-top: 40px;

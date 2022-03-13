@@ -1,0 +1,37 @@
+.review-banner-app {
+    position: relative;
+    .review-banner {
+        background: url("../../../Container/asstes/img/gioithieu/banner-portfolio.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        background-attachment: fixed;
+        .box-review-banner {
+            padding: 60px 0;
+            text-align: center;
+            position: relative;
+            z-index: 2;
+            .box-counter {
+                color: #fff;
+                padding: 20px 0;
+                .counter-title {
+                    font-size: 4rem;
+                }
+                & > p {
+                    font-size: 1.8rem;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+    .banner__overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 1;
+        height: 100%;
+    }
+}

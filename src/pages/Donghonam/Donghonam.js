@@ -1,9 +1,9 @@
 import React from 'react';
-
+import MenuTop from '../../components/MenuTop/MenuTop'
 function Donghonam() {
     return (
         <div>
-            <h2>Donghonam</h2>
+            <MenuTop />
         </div>
     );
 }

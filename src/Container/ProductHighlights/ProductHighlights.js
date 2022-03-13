@@ -3,7 +3,6 @@ import './ProductHighlights.css'
 import Slider from 'react-slick/lib/slider';
 import { product01, product02, product03, product04, product05 } from '../asstes/img'
 
-
 function ProductHighlights() {
     var settings = {
         dots: false,
@@ -43,10 +42,10 @@ function ProductHighlights() {
     return (
         <div className="product-container">
             <div className="container">
-                <div className="row" data-aos="fade-left">
+                <div className="row"  >
                     <Slider {...settings}>
                         <div>
-                            <div className="product-item">
+                            <div className="product-item" data-aos="fade-left">
                                 <div className="box-img">
                                     <a href="/"> <img src={product01} alt="" /></a>
                                 </div>
@@ -60,7 +59,7 @@ function ProductHighlights() {
                             </div>
                         </div>
                         <div>
-                            <div className="product-item">
+                            <div className="product-item" data-aos="fade-left">
                                 <div className="box-img">
                                     <a href="/"> <img src={product02} alt="" /></a>
                                 </div>
@@ -74,7 +73,7 @@ function ProductHighlights() {
                             </div>
                         </div>
                         <div>
-                            <div className="product-item">
+                            <div className="product-item" data-aos="fade-left">
                                 <div className="box-img">
                                     <a href="/"> <img src={product03} alt="" /></a>
                                 </div>
@@ -88,7 +87,7 @@ function ProductHighlights() {
                             </div>
                         </div>
                         <div>
-                            <div className="product-item">
+                            <div className="product-item" data-aos="fade-left">
                                 <div className="box-img">
                                     <a href="/"> <img src={product04} alt="" /></a>
                                 </div>
@@ -102,7 +101,7 @@ function ProductHighlights() {
                             </div>
                         </div>
                         <div>
-                            <div className="product-item">
+                            <div className="product-item" data-aos="fade-left">
                                 <div className="box-img">
                                     <a href="/"> <img src={product05} alt="" /></a>
                                 </div>
@@ -116,7 +115,7 @@ function ProductHighlights() {
                             </div>
                         </div>
                         <div>
-                            <div className="product-item">
+                            <div className="product-item" data-aos="fade-left">
                                 <div className="box-img">
                                     <a href="/"> <img src={product01} alt="" /></a>
                                 </div>
