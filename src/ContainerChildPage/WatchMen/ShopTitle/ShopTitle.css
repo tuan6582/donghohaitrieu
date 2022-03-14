@@ -1,0 +1,80 @@
+.active {
+  color: #222;
+}
+
+.shop-title {
+  margin: 20px;
+}
+
+.shop-title .shop-navigation {
+  font-size: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.shop-title .shop-navigation > a {
+  text-decoration: none;
+  color: rgba(102, 102, 102, 0.7);
+  font-weight: 600;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.shop-title .shop-navigation > a:hover {
+  color: #222;
+}
+
+.shop-title .shop-navigation > span {
+  margin: 0 12px;
+  color: rgba(102, 102, 102, 0.7);
+}
+
+.shop-title .shop-navigation > p {
+  font-weight: 700;
+}
+
+.shop-title .shop-display {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.shop-title .shop-display > p {
+  font-size: 1.6rem;
+  margin-right: 12px;
+  color: #353535;
+}
+
+.shop-title .shop-display .from-select {
+  font-size: 1.6rem;
+  outline: none;
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+  color: #353535;
+  cursor: pointer;
+}
+
+@media (max-width: 63.9375em) {
+  .shop-title .shop-navigation {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 20px;
+  }
+  .shop-title .shop-display {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .shop-title .shop-display > p {
+    display: none;
+  }
+}
+/*# sourceMappingURL=ShopTitle.css.map */

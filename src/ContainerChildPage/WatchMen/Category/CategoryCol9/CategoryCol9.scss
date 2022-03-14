@@ -1,0 +1,99 @@
+.box-product {
+    box-shadow: 0 3px 10px 2px rgba(0, 0, 0, 0.1);
+    position: relative;
+    transition: all 0.5s;
+    &:hover {
+        box-shadow: 0 3px 10px 2px rgba(0, 0, 0, 0.2);
+    }
+    &:hover .product-head {
+        opacity: 1;
+    }
+    &:hover .img-behind {
+        visibility: unset;
+        opacity: 1;
+    }
+    & > a {
+        display: block;
+        & > img {
+            width: 100%;
+        }
+    }
+    .img-behind {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        visibility: hidden;
+        opacity: 0;
+        transition: all 0.5s;
+        & > a {
+            display: block;
+            & > img {
+                width: 100%;
+            }
+        }
+    }
+    .box-product-info {
+        display: grid;
+        justify-items: center;
+        padding: 20px 0;
+        & > h3 {
+            color: #3a3a3a;
+            font-weight: 600;
+            margin: 20px 0;
+        }
+        & > span {
+            color: #c89979;
+            font-size: 1.7rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+        & > a {
+            display: block;
+            padding: 10px 20px;
+            background-color: #c89979;
+            color: #fff;
+            font-size: 1.6rem;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.5s;
+        }
+    }
+    .product-head {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        opacity: 0;
+        transition: all 0.5s;
+        cursor: pointer;
+        & > a {
+            display: block;
+            & > i {
+                font-size: 2rem;
+                padding: 10px 10px;
+                color: silver;
+                border: 1px solid #ccc;
+                border-radius: 50%;
+                transition: all 0.5s;
+                &:hover {
+                    background-color: red;
+                }
+            }
+        }
+    }
+}
+
+@keyframes hoverProduct {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@media (max-width: 63.9375em) {
+    .box-product {
+        margin: 20px 0;
+    }
+}

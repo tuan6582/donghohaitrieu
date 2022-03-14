@@ -1,0 +1,133 @@
+.box-product {
+  -webkit-box-shadow: 0 3px 10px 2px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 3px 10px 2px rgba(0, 0, 0, 0.1);
+  position: relative;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.box-product:hover {
+  -webkit-box-shadow: 0 3px 10px 2px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 3px 10px 2px rgba(0, 0, 0, 0.2);
+}
+
+.box-product:hover .product-head {
+  opacity: 1;
+}
+
+.box-product:hover .img-behind {
+  visibility: unset;
+  opacity: 1;
+}
+
+.box-product > a {
+  display: block;
+}
+
+.box-product > a > img {
+  width: 100%;
+}
+
+.box-product .img-behind {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.box-product .img-behind > a {
+  display: block;
+}
+
+.box-product .img-behind > a > img {
+  width: 100%;
+}
+
+.box-product .box-product-info {
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  padding: 20px 0;
+}
+
+.box-product .box-product-info > h3 {
+  color: #3a3a3a;
+  font-weight: 600;
+  margin: 20px 0;
+}
+
+.box-product .box-product-info > span {
+  color: #c89979;
+  font-size: 1.7rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.box-product .box-product-info > a {
+  display: block;
+  padding: 10px 20px;
+  background-color: #c89979;
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-decoration: none;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.box-product .product-head {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  opacity: 0;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.box-product .product-head > a {
+  display: block;
+}
+
+.box-product .product-head > a > i {
+  font-size: 2rem;
+  padding: 10px 10px;
+  color: silver;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.box-product .product-head > a > i:hover {
+  background-color: red;
+}
+
+@-webkit-keyframes hoverProduct {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes hoverProduct {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 63.9375em) {
+  .box-product {
+    margin: 20px 0;
+  }
+}
+/*# sourceMappingURL=CategoryCol9.css.map */

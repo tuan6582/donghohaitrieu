@@ -61,6 +61,32 @@ import customer01 from '../asstes/img/gioithieu/customer01.png'
 import customer02 from '../asstes/img/gioithieu/customer02.png'
 import customer03 from '../asstes/img/gioithieu/customer03.png'
 
+// danh mục sản phẩm
+
+import category01 from '../asstes/img/category/category01.jpg'
+import category02 from '../asstes/img/category/category02.jpg'
+import category03 from '../asstes/img/category/category03.jpg'
+import category04 from '../asstes/img/category/category04.jpg'
+import category05 from '../asstes/img/category/category05.jpg'
+import placeholder from '../asstes/img/category/placeholder.png'
+
+// new post
+
+import new01 from '../asstes/img/category/imgpost01.jpg'
+import new02 from '../asstes/img/category/imgpost02.jpg'
+import new03 from '../asstes/img/category/imgpost03.jpg'
+import new04 from '../asstes/img/category/imgpost04.jpg'
+import new05 from '../asstes/img/category/imgpost05.jpg'
+
+// category-product
+
+import productCategory01 from '../asstes/img/category/product-category01.png'
+import productCategory02 from '../asstes/img/category/product-category02.png'
+import productCategory03 from '../asstes/img/category/product-category03.jpg'
+import productCategory04 from '../asstes/img/category/product-category04.jpg'
+import productCategory05 from '../asstes/img/category/product-category05.png'
+
+
 export {
 
     logoHome,
@@ -125,4 +151,27 @@ export {
     customer01,
     customer02,
     customer03,
+
+    // danh mục
+
+    category01,
+    category02,
+    category03,
+    category04,
+    category05,
+    placeholder,
+
+    // new post
+
+    new01,
+    new02,
+    new03,
+    new04,
+    new05,
+
+    productCategory01,
+    productCategory02,
+    productCategory03,
+    productCategory04,
+    productCategory05,
 }

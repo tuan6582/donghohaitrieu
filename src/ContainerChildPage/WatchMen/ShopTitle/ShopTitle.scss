@@ -1,0 +1,66 @@
+.active {
+    color: #222;
+}
+
+.shop-title {
+    margin: 20px;
+    .shop-navigation {
+        font-size: 2rem;
+        display: flex;
+        & > a {
+            text-decoration: none;
+            color: rgba(102, 102, 102, 0.7);
+            font-weight: 600;
+            transition: all 0.3s;
+            &:hover {
+                color: #222;
+            }
+        }
+        & > span {
+            margin: 0 12px;
+            color: rgba(102, 102, 102, 0.7);
+        }
+        & > p {
+            font-weight: 700;
+        }
+    }
+    .shop-display {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        & > p {
+            font-size: 1.6rem;
+            margin-right: 12px;
+            color: #353535;
+        }
+        .from-select {
+            font-size: 1.6rem;
+            outline: none;
+            border: 1px solid #ccc;
+            padding: 8px 12px;
+            color: #353535;
+            cursor: pointer;
+        }
+    }
+}
+
+@media (max-width: 63.9375em) {
+    .shop-title .shop-navigation {
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .shop-title .shop-display {
+        justify-content: center;
+    }
+
+    .shop-title .shop-display > p {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+}
+
+@media only screen and (max-width: 46.1875em) {
+}
