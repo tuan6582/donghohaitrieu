@@ -6,7 +6,7 @@ function CategoryContainer() {
     return (
         <div className="category-container">
             <div className="container">
-                <div className="row" style={{ alignItems: 'unset' }}>
+                <div className="row">
                     <CategoryCol3 />
                     <CategoryCol9 />
                 </div>

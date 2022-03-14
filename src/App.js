@@ -3,7 +3,14 @@ import React from 'react';
 import './App.css';
 import Home from './pages/Home/Home'
 
+
+import 'aos/dist/aos.css'
+import Aos from 'aos';
+
+
 function App() {
+
+  Aos.init();
 
   return (
 

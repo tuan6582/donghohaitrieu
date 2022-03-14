@@ -1,5 +1,6 @@
 .category-filter {
     display: inline-flex;
+    display: none;
     font-size: 2.5rem;
     & > i {
         margin-right: 12px;
@@ -186,10 +187,14 @@
     .category-left {
         display: none;
     }
+    .category-filter {
+        display: inline-flex;
+    }
 }
 
 @media only screen and (max-width: 46.1875em) {
     .remove-category-mobile {
         font-size: 2rem;
+        padding: 0px 10px;
     }
 }

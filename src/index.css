@@ -24,3 +24,7 @@ a {
 p {
     margin: 0;
 }
+
+.row {
+    align-items: unset;
+}

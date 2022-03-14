@@ -87,6 +87,19 @@ import productCategory04 from '../asstes/img/category/product-category04.jpg'
 import productCategory05 from '../asstes/img/category/product-category05.png'
 
 
+import productNu01 from '../asstes/img/category/product-nu-01.jpg'
+import productNu02 from '../asstes/img/category/product-nu-02.jpg'
+import productNu03 from '../asstes/img/category/product-nu-03.jpg'
+import productNu04 from '../asstes/img/category/product-nu-04.jpg'
+
+// blogs
+
+import blogs01 from '../asstes/img/Blogs/blogs01.jpg'
+import blogs02 from '../asstes/img/Blogs/blogs02.jpg'
+import blogs03 from '../asstes/img/Blogs/blogs3.jpg'
+import blogs04 from '../asstes/img/Blogs/blogs04.jpg'
+import blogs05 from '../asstes/img/Blogs/blogs05.jpg'
+
 export {
 
     logoHome,
@@ -174,4 +187,17 @@ export {
     productCategory03,
     productCategory04,
     productCategory05,
+
+    productNu01,
+    productNu02,
+    productNu03,
+    productNu04,
+
+    // blogs
+
+    blogs01,
+    blogs02,
+    blogs03,
+    blogs04,
+    blogs05,
 }

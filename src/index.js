@@ -8,13 +8,6 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-
-
-import 'aos/dist/aos.css'
-import Aos from 'aos';
-
-Aos.init();
-
 ReactDOM.render(
 
   <React.StrictMode>

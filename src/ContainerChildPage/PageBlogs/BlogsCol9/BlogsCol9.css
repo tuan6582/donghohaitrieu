@@ -1,0 +1,59 @@
+.blogs-box {
+  -webkit-box-shadow: 0 3px 10px 2px rgba(0, 0, 0, 0.16);
+          box-shadow: 0 3px 10px 2px rgba(0, 0, 0, 0.16);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+.blogs-box:hover {
+  -webkit-box-shadow: 0 3px 10px 2px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 3px 10px 2px rgba(0, 0, 0, 0.25);
+}
+
+.blogs-box > a {
+  display: block;
+  text-decoration: none;
+  color: #333;
+}
+
+.blogs-box > a > img {
+  width: 100%;
+}
+
+.blogs-box > a .box-blogs-text {
+  padding: 10px 15px 20px 15px;
+}
+
+.blogs-box > a .box-blogs-text > h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.blogs-box > a .box-blogs-text > p {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  font-size: 1.4rem;
+  padding-top: 10px;
+  position: relative;
+}
+
+.blogs-box > a .box-blogs-text > p::before {
+  position: absolute;
+  content: " ";
+  display: block;
+  width: 30%;
+  height: 2px;
+  background-color: #ccc;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+/*# sourceMappingURL=BlogsCol9.css.map */

@@ -7,13 +7,12 @@ import Nav from '../Nav/Nav'
 function Home() {
 
     return (
-        <React.Fragment>
+        <div>
             <HeaderApp />
             <BrowserRouter>
                 <Nav />
             </BrowserRouter>
-
-        </React.Fragment>
+        </div>
     );
 }
 
