@@ -1,6 +1,6 @@
 import React from 'react';
 import './CategoryCol3.css'
-import { category01, category02, category03, category04, category05, new01, new02, new03, new04, new05, news02, placeholder } from '../../../../Container/asstes/img';
+import { category01, category02, category03, category04, category05, new01, new02, new03, new04, new05, placeholder } from '../../../../Container/asstes/img';
 
 function CategoryCol3() {
     return (
