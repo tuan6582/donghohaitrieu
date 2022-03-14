@@ -4,9 +4,9 @@ import { productCategory01, productCategory02, productCategory03, productCategor
 
 function CategoryCol9() {
     return (
-        <div className="col-xl-9 col-lg-9 col-md-12 col-sm-12">
+        <div className="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
             <div className="row">
-                <div className="col-xl-3 col-lg-3 col-md-4 col-sm-4">
+                <div className="col-xl-3 col-lg-3 col-md-4 col-sm-4 col-6">
                     <div className="box-product">
                         <a href="/"><img src={productCategory01} alt="" /></a>
                         <div className="img-behind">
@@ -22,7 +22,7 @@ function CategoryCol9() {
                         </div>
                     </div>
                 </div>
-                <div className="col-xl-3 col-lg-3 col-md-4 col-sm-4">
+                <div className="col-xl-3 col-lg-3 col-md-4 col-sm-4 col-6">
                     <div className="box-product">
                         <a href="/"><img src={productCategory02} alt="" /></a>
                         <div className="img-behind">
@@ -38,7 +38,7 @@ function CategoryCol9() {
                         </div>
                     </div>
                 </div>
-                <div className="col-xl-3 col-lg-3 col-md-4 col-sm-4">
+                <div className="col-xl-3 col-lg-3 col-md-4 col-sm-4 col-6">
                     <div className="box-product">
                         <a href="/"><img src={productCategory03} alt="" /></a>
                         <div className="img-behind">
@@ -54,7 +54,7 @@ function CategoryCol9() {
                         </div>
                     </div>
                 </div>
-                <div className="col-xl-3 col-lg-3 col-md-4 col-sm-4">
+                <div className="col-xl-3 col-lg-3 col-md-4 col-sm-4 col-6">
                     <div className="box-product">
                         <a href="/"><img src={productCategory04} alt="" /></a>
                         <div className="img-behind">

@@ -50,7 +50,7 @@
         }
         & > a {
             display: block;
-            padding: 10px 20px;
+            padding: 10px 10px;
             background-color: #c89979;
             color: #fff;
             font-size: 1.6rem;
@@ -95,5 +95,9 @@
 @media (max-width: 63.9375em) {
     .box-product {
         margin: 20px 0;
+    }
+
+    .box-product .product-head {
+        opacity: 1;
     }
 }
