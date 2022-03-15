@@ -2,7 +2,7 @@ import React from 'react';
 import { banner1, banner2 } from '../../Container/asstes/img'
 function BannerProduct() {
     return (
-        <div id="down" className="banner">
+        <div className="banner">
             <div className="container">
                 <div className="row">
                     <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 ">

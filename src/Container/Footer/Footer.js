@@ -33,7 +33,7 @@ function Footer() {
                                 <li className="contact__icon--item"><a href="/" target="_blank" style={{
                                     backgroundColor: '#3a589d'
                                 }}>
-                                    <i className="fa-brands fa-facebook-f"></i>
+                                    <i className="fa-brands fa-facebook-messenger"></i>
                                 </a></li>
                                 <li className="contact__icon--item"><a href="/" target="_blank" style={{
                                     backgroundColor: '#3b6994'
