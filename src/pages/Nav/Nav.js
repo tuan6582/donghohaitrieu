@@ -69,7 +69,7 @@ function Nav() {
             )}
 
             <Routes>
-                <Route path="///*" element={<Trangchu />} />
+                <Route path="/" element={<Trangchu />} />
                 <Route path="/gioithieu" element={<Gioithieu />} />
                 <Route path="/donghonam" element={<Donghonam />} />
                 <Route path="/donghonu" element={<Donghonu />} />

@@ -2,6 +2,8 @@ import React from 'react';
 import MenuTop from '../../components/MenuTop/MenuTop';
 import Footer from '../../Container/Footer/Footer';
 import Information from '../../Container/Information/Information';
+import ContactCenter from '../../ContainerChildPage/Contact/ContactCenter/ContactCenter';
+import FormRequest from '../../ContainerChildPage/Contact/FormRequest/FormRequest';
 import Map from '../../ContainerChildPage/Contact/Map/Map';
 
 
@@ -11,6 +13,8 @@ function Lienhe() {
             <MenuTop />
             <div className="Contact">
                 <Map />
+                <ContactCenter />
+                <FormRequest />
             </div>
             <Information />
             <Footer />

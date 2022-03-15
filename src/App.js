@@ -1,16 +1,21 @@
 
-import React from 'react';
+import React, { useEffect } from 'react';
 import './App.css';
 import Home from './pages/Home/Home'
 
-
+import AOS from 'aos';
 import 'aos/dist/aos.css'
-import Aos from 'aos';
+
 
 
 function App() {
 
-  Aos.init();
+  useEffect(() => {
+    setTimeout(() => {
+      AOS.init();
+    }, 500);
+
+  }, [])
 
   return (
 

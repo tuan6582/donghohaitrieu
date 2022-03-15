@@ -8,7 +8,7 @@ function ReviewProduct() {
             <div className="container">
                 <div className="row">
                     <div className="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12">
-                        <div className="box-customer" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                        <div className="box-customer" data-aos="flip-left">
                             <div className="customer-img ">
                                 <img src={customer01} alt="" />
                             </div>
@@ -19,7 +19,7 @@ function ReviewProduct() {
                         </div>
                     </div>
                     <div className="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12">
-                        <div className="box-customer" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                        <div className="box-customer" data-aos="flip-left">
                             <div className="customer-img ">
                                 <img src={customer02} alt="" />
                             </div>
@@ -30,7 +30,7 @@ function ReviewProduct() {
                         </div>
                     </div>
                     <div className="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12">
-                        <div className="box-customer" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                        <div className="box-customer" data-aos="flip-left">
                             <div className="customer-img ">
                                 <img src={customer03} alt="" />
                             </div>

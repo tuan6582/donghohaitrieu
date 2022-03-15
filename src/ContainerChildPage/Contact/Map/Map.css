@@ -1,1 +1,9 @@
-/* No CSS *//*# sourceMappingURL=Map.css.map */
+.map {
+  margin: 40px 0;
+  padding-top: 20px;
+}
+
+.map .map-container > Iframe {
+  border: none;
+}
+/*# sourceMappingURL=Map.css.map */
