@@ -67,6 +67,7 @@
 .slick-slider .slick-prev:before,
 .slick-slider .slick-next:before {
   font-size: 3rem;
+  color: #fff;
 }
 
 @media only screen and (min-width: 48em) and (max-width: 63.9375em) {

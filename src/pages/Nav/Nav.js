@@ -1,15 +1,22 @@
 
-import { Routes, Route, NavLink } from 'react-router-dom'
+import React, { useEffect, useState } from 'react';
+import { Routes, Route, NavLink, useLocation } from 'react-router-dom'
 import Gioithieu from '../../pages/Gioithieu/Gioithieu'
 import Donghonam from '../../pages/Donghonam/Donghonam'
 import Donghonu from '../../pages/Donghonu/Donghonu'
 import Blogs from '../../pages/Blogs/Blogs'
 import Lienhe from '../../pages/Lienhe/Lienhe'
 import Trangchu from '../../pages/Trangchu/Trangchu'
-import React, { useEffect, useState } from 'react';
 import './Nav.css'
 
+function ScrollToTop() {
+    const { pathname } = useLocation(true);
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [pathname]);
 
+    return null;
+}
 
 
 function Nav() {
@@ -42,7 +49,7 @@ function Nav() {
 
     return (
         <React.Fragment>
-
+            <ScrollToTop />
             <div className="nav-bottom">
                 <div className="container">
                     <div className="row">

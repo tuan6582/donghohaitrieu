@@ -73,12 +73,12 @@
   background-color: #a07a61;
 }
 
-.slick-slider .slick-prev {
+.product-container .slick-slider .slick-prev {
   left: 15px;
 }
 
-.slick-prev:before,
-.slick-next:before {
+.product-container .slick-prev:before,
+.product-container .slick-next:before {
   color: #333;
 }
 

@@ -56,15 +56,15 @@
             }
         }
     }
-}
 
-.slick-slider .slick-prev {
-    left: 15px;
-}
+    .slick-slider .slick-prev {
+        left: 15px;
+    }
 
-.slick-prev:before,
-.slick-next:before {
-    color: #333;
+    .slick-prev:before,
+    .slick-next:before {
+        color: #333;
+    }
 }
 
 @media only screen and (max-width: 46.1875em) {
