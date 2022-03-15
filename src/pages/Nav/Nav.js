@@ -47,6 +47,13 @@ function Nav() {
 
     window.addEventListener('scroll', handleScroll)
 
+    const handleSmooth = () => {
+        document.querySelector('html').style.scrollBehavior = 'smooth';
+        setTimeout(function () {
+            document.querySelector('html').style.scrollBehavior = 'unset';
+        })
+    }
+
     return (
         <React.Fragment>
             <ScrollToTop />
@@ -70,7 +77,7 @@ function Nav() {
             </div>
 
             {backToTop && (
-                <div className="go-top">
+                <div className="go-top" onClick={handleSmooth}>
                     <a href="#Home"><i className="fa-solid fa-angles-up"></i></a>
                 </div>
             )}
