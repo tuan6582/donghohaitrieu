@@ -1,11 +1,9 @@
 import React from 'react';
-import MenuTop from '../../components/MenuTop/MenuTop'
-import IntroduceProduct from '../../ContainerChildPage/Introduce/IntroduceProduct/IntroduceProduct'
-import SpecialProduct from '../../ContainerChildPage/Introduce/SpecialProduct/SpecialProduct';
-import Information from '../../Container/Information/Information'
-import Footer from '../../Container/Footer/Footer'
+import MenuTop from '../../components/MenuTop/MenuTop';
+import IntroduceProduct from '../../ContainerChildPage/Introduce/IntroduceProduct/IntroduceProduct';
 import ReviewBanner from '../../ContainerChildPage/Introduce/ReviewBanner/ReviewBanner';
-import ReviewProduct from '../../ContainerChildPage/Introduce/ReviewProduct/ReviewProduct'
+import ReviewProduct from '../../ContainerChildPage/Introduce/ReviewProduct/ReviewProduct';
+import SpecialProduct from '../../ContainerChildPage/Introduce/SpecialProduct/SpecialProduct';
 
 function Gioithieu() {
 
@@ -16,8 +14,6 @@ function Gioithieu() {
             <SpecialProduct />
             <ReviewBanner />
             <ReviewProduct />
-            <Information />
-            <Footer />
         </div>
     );
 }

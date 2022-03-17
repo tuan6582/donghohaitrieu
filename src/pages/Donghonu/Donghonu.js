@@ -1,7 +1,5 @@
 import React from 'react';
-import MenuTop from '../../components/MenuTop/MenuTop'
-import Footer from '../../Container/Footer/Footer';
-import Information from '../../Container/Information/Information';
+import MenuTop from '../../components/MenuTop/MenuTop';
 import CategoryWomenContainer from '../../ContainerChildPage/WomenWatches/CategoryWomenContainer/CategoryWomenContainer';
 import ShopTitleWomen from '../../ContainerChildPage/WomenWatches/ShopTitleWomen/ShopTitleWomen';
 function Donghonu() {
@@ -10,8 +8,6 @@ function Donghonu() {
             <MenuTop />
             <ShopTitleWomen />
             <CategoryWomenContainer />
-            <Information />
-            <Footer />
         </div>
     );
 }

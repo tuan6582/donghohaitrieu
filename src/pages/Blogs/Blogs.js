@@ -1,9 +1,7 @@
 import React from 'react';
+import MenuTop from '../../components/MenuTop/MenuTop';
 import BlogsCol9 from '../../ContainerChildPage/PageBlogs/BlogsCol9/BlogsCol9';
 import SearchBlogsCol3 from '../../ContainerChildPage/PageBlogs/SearchBlogsCol3/SearchBlogsCol3';
-import MenuTop from '../../components/MenuTop/MenuTop'
-import Information from '../../Container/Information/Information'
-import Footer from '../../Container/Footer/Footer'
 
 function Blogs() {
     return (
@@ -24,8 +22,6 @@ function Blogs() {
 
                 </div>
             </div>
-            <Information />
-            <Footer />
         </React.Fragment>
     );
 }

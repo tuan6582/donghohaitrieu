@@ -1,6 +1,7 @@
 import React from 'react';
 import './HeaderCenter.css'
 import { logoHome } from '../../asstes/img';
+import { NavLink } from 'react-router-dom';
 function HeaderCenter() {
     return (
         <div className="header-center">
@@ -8,7 +9,7 @@ function HeaderCenter() {
                 <div className="row">
                     <div className="col-xl-3 col-lg-3">
                         <div className="header__center--logo">
-                            <a href="/"><img src={logoHome} alt="" /></a>
+                            <NavLink to="/"><img src={logoHome} alt="" /></NavLink>
                         </div>
                     </div>
                     <div className="col-xl-6 col-lg-6">

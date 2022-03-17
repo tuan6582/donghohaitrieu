@@ -51,7 +51,7 @@ function Nav() {
         document.querySelector('html').style.scrollBehavior = 'smooth';
         setTimeout(function () {
             document.querySelector('html').style.scrollBehavior = 'unset';
-        })
+        }, 1000)
     }
 
     return (
